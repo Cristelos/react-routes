@@ -10,8 +10,8 @@ function App() {
   return (
     <Router>
 
-    <header>
-      <nav>
+    <header className='header'>
+      <nav className='menu'>
         <Link to="/">Home</Link>
         <Link to="/characters">Characters</Link>
         <Link to="/quotes">Quotes</Link>
